@@ -75,7 +75,7 @@ Example with the Desert Eagle:
 		$cdmaterials "models\weapons\VGOSkins\deserteagle\"		// Add the folder of our new VMT files
 	>
 
-	Then you just recompile the model and voila!
+Then you just recompile the model and voila!
 
 This is all when it comes to making models, bear in mind of the skins limit (32 skins for a single model). Each collection can have at most 1 model for each of the different weapons, if you have a collection that has for example 40 skins for the AK-47 alone, then you can put 20 in a collection named Collection1 (1st model) and the other 20 in the Collection2 (2nd model). I mean this is all theoretically speaking, I don't see anyone putting more than 32 skins for a single weapon, unless you really like skins and expect all of your players to have some extremely fast connection speed (I don't, so I can't imagine myself downloading GBytes of skins).
 
@@ -89,5 +89,4 @@ One more thing, by default you have the VTF because it contains the texture, but
 
 
 
-	Lastly, the SourceMod plugin side of things. Well, you just go to addons/sourcemod/configs/skins and create a .kv (KeyValues) file for your collection.
-For the VGOSkins collection, I already provided a structure that I made for some skins, I think everything is self-explanatory
+Lastly, the SourceMod plugin side of things. Well, you just go to addons/sourcemod/configs/skins and create a .kv (KeyValues) file for your collection. For the VGOSkins collection, I already provided a structure that I made for some skins, I think everything is self-explanatory.
