@@ -121,6 +121,7 @@ public void OnMapStart()
 		if( !kv.ImportFromFile(collection) ) 
 		{
 			PrintToServer("Couldn't load KeyValues from file");
+			continue;
 		}
 
 		kv.GetString("Collection", collection, sizeof(collection));
